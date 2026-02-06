@@ -1,0 +1,9 @@
+> read 
+< write 
+2> error redirection 
+
+
+
+17/01/26b
+signal sneder and sender receiver file error 
+also menatin x file  and also xx or xxx file 

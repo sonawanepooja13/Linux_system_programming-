@@ -1,0 +1,2 @@
+client and server file saving ult ahe(working) 
+gcc Server_1.c -o Server_1 -ldl

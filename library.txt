@@ -1,0 +1,157 @@
+touch demo.txt  ..crarte a text file 
+
+test folder 
+ctr+x harddisk io data physically cut paste 
+inode no doesn't change 
+stat demo.txt 
+postfix l letetr to file it fill like link 
+rm link.c 
+cat command is unable to read symbolic link 
+fsync and fdatasync --->line mdhi buffer lagle 
+
+
+opendir and readdir chnge
+## self coomand
+
+gcc prog.c -o ls -w 
+./ls
+
+
+width specifier in c for string 
+stat5.c 
+
+
+./myexe/dev/stdout --->indicate charcter device
+
+//17.-2
+| wc -| to pass wc output on scrren 
+|s | wc -| > pipe.txt
+pipe call 
+
+./write |.gcc -fPIC -shared  iso file name    filename 
+
+static and dyanmic linking command and changes in code ]
+c che function inbuilt call karayche (w3 scholl) 
+nanter yach logic swath lihaych define
+10 existing lihayche 
+swatche logic lihaych ani .so banvaychi ani link karaychi and push on github 
+math.h and satring.h 
+
+library liking che code .c hote just explore as .cpp 
+static and dynamic linking file 
+static library banv dyamic 
+.a internally link .so function kad yeil namter actual clinent tyala acess karen 
+
+ar rcs libclient_1.a client_1.o  
+gcc Server_1.c -L. libclient_1 -o Server_1 
+
+
+
+31/01/2026
+
+folder structure/directory structure 
+steps follows : 
+being user of os 
+os info in details and their part 
+after that programmer of os 
+linux based system programmer 
+creater of os 
+command write down and just execute 
+(it vary according to os ) 
+shells behave its os 
+linux kernel types 
+mono kernel --->integrated in one thing 
+micro--> integrated in diff diff part 
+hybrid - combine togetherversion according to their priority 
+there is no kernel of linux 
+becoz its on top 
+inside that version --> we can find kernel 
+vmlinux  --->kernel of linux 
+
+os =kernel+shell+other utilites * 
+eg other utlities:-browswer 
+  shell (UI) 
+  desktop :GUI  of shell 
+  shell(CUI) Version of desktop 
+  
+  kernel types(micro,mon,hybrid) 
+  kernel is interface between hardware and user application 
+  there is no types of linux at that time is monokernel 
+  
+Debain family : 
+raspbarain os:(256)MB storage or whatever 
+eurpioin country --> kali linux 
+sd card -> works like hardware 
+automation  apply kara 
+fsck check file system fille 
+file is also orphand format 
+
+types of devices 
+block device 
+char devices 
+
+
+inside 
+ubuntu/boot there is kernel present inside it 
+device file and device driver are different 
+inside bluetooth like info contain which one is used for data tran/
+
+#contain a x-86 toolchain 
+lib/gcc/x86_64-linux-gnusfer 
+
+mount to access a mounting data (linux->window) 
+/proc process 0 bydefault (no indicate pid of processs) 
+
+//home activity 
+linux command handook (write /run practically) 
+
+
+1/2/2026 
+make file :- 
+vieditor 'learn 
+makefile - build process automation tool 
+it is used only in linux distrol 
+linux platform is complusory 
+dependeny automation -run hotatana to tyach anenn when it placed this also decide itself . 
+build automation -
+demo.c 
+mkafile without exrension 
+gcc -c Main.c
+
+gcc  Main.o Helper.o -o app 
+
+gcc Main.c Helper.c -o app 
+ls
+<pre>rm app
+</pre>
+make
+make run gcc -c Helper.c
+./app is last comamnd 
+
+
+gpl liecence 
+.c to .ko flile (object file)
+insert into kernel module 
+printk function check log file check file cat command 
+ls mod check 
+normal case baher padto 
+kerel madh kadava lagto rm comamd 
+init function alllocate resources (allocate /deea resources) 
+ if we insert mouse 
+ in that check lsmod then tyacha device driver load hoil 
+  dmesg 
+  sudo dmseg > kernel chi diary open 
+   unname -r kernel version 
+   
+   mail yeil 
+   
+   
+   
+   .....................
+   
+   server file 
+   gcc -fPIC -shared -o LIBClient1.so Server_1.c
+check ls libclient
+
+gcc client.c -o client -ldl
+./client 
