@@ -6,4 +6,13 @@
 
 17/01/26b
 signal sneder and sender receiver file error 
-also menatin x file  and also xx or xxx file 
+also menatin x file  and also xx or xxx file
+// 7 feb 2026 
+concurrent ftp server 
+protocol is set of rule tht we hve follow smooth commnuication 
+TCP most imp (transmission control protocol)
+connection oriented protocol 
+pro:;file,process, memory managent includeed.
+
+
+
