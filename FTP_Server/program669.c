@@ -1,3 +1,6 @@
+
+//Server side code 
+//...............................................
 #include<stdio.h> //printf,scanf
 #include<sys/socket.h> //socket,bind,listen ,connect 
 #include<stdlib.h> //malloc,free

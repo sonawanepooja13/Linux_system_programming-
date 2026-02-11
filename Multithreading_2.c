@@ -1,3 +1,5 @@
+//Accept a filename from user and calculate a Capital letter and small letter from user 
+
 #include<stdio.h>
 #include<fcntl.h>
 #include<unistd.h>
