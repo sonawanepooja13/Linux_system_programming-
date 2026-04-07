@@ -1,0 +1,30 @@
+pooja@pooja-IdeaPad-3-15IML05-U:~$ sudo ls /lib/modules/6.1
+6.14.0-27-generic/ 6.17.0-14-generic/ 
+pooja@pooja-IdeaPad-3-15IML05-U:~$ uname -r
+6.14.0-27-generic
+pooja@pooja-IdeaPad-3-15IML05-U:~$ sudo als /lib/modules/6.14.0-27-generic/build
+sudo: als: command not found
+pooja@pooja-IdeaPad-3-15IML05-U:~$ sudo ls /lib/modules/6.14.0-27-generic/build
+arch	Documentation  init	 Kconfig   mm		   samples   tools
+block	drivers        io_uring  kernel    Module.symvers  scripts   ubuntu
+certs	fs	       ipc	 lib	   net		   security  usr
+crypto	include        Kbuild	 Makefile  rust		   sound     virt
+pooja@pooja-IdeaPad-3-15IML05-U:~$ cat /boot/config-6.14.0-27-generic | grep CONFIG_MODULES
+CONFIG_MODULES_USE_ELF_RELA=y
+CONFIG_MODULES=y
+CONFIG_MODULES_TREE_LOOKUP=y
+pooja@pooja-IdeaPad-3-15IML05-U:~$ mokutil --sb-state 
+SecureBoot disabled
+pooja@pooja-IdeaPad-3-15IML05-U:~$ 
+
+
+if you have not seen kernel module disabled and according to that restart laptop press at a time esc or any key find secure boot option and disable to secure boot option  and save changes and restart computer 
+cd Module5
+make 
+check hello.c 
+sudo insmod hello.c 
+lsmod 
+modinfo Hello.ko >modinfo.txt
+sudo dmesg >log.txt
+sudo rmmod Hello
+

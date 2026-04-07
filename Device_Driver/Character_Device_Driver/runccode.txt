@@ -1,0 +1,31 @@
+ls /dev 
+to clear self device file 
+sudo mknod /dev/lsp c 101 0 
+then ls/dev check lsp file created or not 
+ls -l /dev
+lsmod 
+sudo insmod MarvellousDriver.ko  ...> no issuse then module insert 
+then lsmod>ls.txt  check driver 
+
+ls -l /dev >lsdev.txt open file check file created or not (permission )
+close both file 
+then check kernel log 
+sudo dmesg >log.txt  check marvellous still we are ready to use device driver 
+sudo cat /dev/marvellous_driver
+
+
+echo "jay ganesh..."> /dev/marvellous_driver 
+echo  "jay ganesh ...."> /dev/marvellous_driver
+sudo chmod 666 /dev/marvellous_driver
+echo  "jay ganesh ...."> /dev/marvellous_driver
+
+sudo dmesg >writelog.txt  check open status 
+sudo cat /dev/marvellous/driver ----> we should think that to open file 
+sudo dmesg >readlog.txt 
+
+
+//check a client file 
+client.c 
+then open new cmd 
+check sudo dmesg 
+and then check driver 

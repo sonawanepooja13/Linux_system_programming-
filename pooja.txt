@@ -15,4 +15,99 @@ connection oriented protocol
 pro:;file,process, memory managent includeed.
 
 
+//14 feb 2026 (projects idea) 
+using comamnd prompt we can access google chrome 
+brower send url to server 
+packet 
+.html, .css,.js 
+instraed of brower we used command that command will interact with url 
+///////////////////////////////
+FTP_server (interview question)
+os =kernel+shell 
+kernel logic (file process,memeory ) this are programatically through system call 
+access through a command 
+or through sysytem call 
+every command get internall ycall to system call 
+exepction: cls, clear (internally call write) 
 
+
+//comand 
+ls -a 
+ current and root directory 
+ touch  Demo.txt  ---------> ued to create new file internally it creates create system call 
+ ls -a  
+ cat Demo.txt ------------> open  and write a data inside file 
+ 
+ 
+ //project to check what are content include in executable file as hexeditor 
+ linux system madhi magic number aasto to check krto ki wheather it is executable or not 
+ 
+ hexdump ./cpx -b 
+ pe file format  (check wekipedia) 
+ pe fie format editor 
+ check magic number  
+ checkk this number ascii value and  check crc file format 
+ this used to make our own project editot tool 
+ 
+ //22/02/2026 
+ store data =block device
+ not to store data =character data 
+ types of file 
+ special file 
+ 1)device file 
+ intv : explain differ between device file nd device driver 
+ file size is depends on file data 
+ regular file 
+ no of bytes 
+ devie file is always 4 bytes 
+ every device file conatin two number (major no(driver),minor no(device)) 
+ mknod is used to create device file 
+ all device store inside /dev 
+ mknod nod stands node 
+ 
+ code explantion : 
+ steps to create a charcter_device_driver 
+ 
+ 
+ 28 feb 
+ 
+7 march 2026 
+ mode of operating system 
+ real mode , protected mode 
+ post (power on self test) 
+ check all hardware every device sends a signals  as ok then it in real modde work on the protected mode at at atime of shut don it switch into real mode
+ 
+ when kernel is running it is inside protected mode 
+  os ---> boot (real mode)  --------> protected mode(process switch user mode to kernel mode)  --------------> real mode_> off condition 
+                    1 mb                4gb                           1mb 
+                    
+                    
+        types of links 
+        hard link,soft link 
+        symbolic link eg a.txt on desktop inode no 11 again e location  b.txt and inode21
+        symbolic link i s a such file conatin apath of another file (syblink)  function call 
+        
+        jar a.txt delete then called dangling link file (present nhi ashya file la point kartat )
+        
+        directory mkdir 
+        inside that by default inode, filename 
+        .current directory (current directory inode no asto )  
+        ..parent directory (parent directory cha inode no asto ) 
+        filecraete karto file cchi enrty and inode no asto ialoc la call karto 
+        mkdir ,opendir ,closedir ,rmdir ,readdir 
+        chdir change current directory 
+        chrrot  to change current root 
+        /ps mdhi sagle folder astat 
+        fault (page fault , segmentation fault) 
+        8 march 2026 
+        project : process memory inspector (based onn only linux platform ) platform dependent code.
+        you cant write on window becoz it is commericl baesd bexoz not containing / proc folder 
+         process inspector-> linux->/proc->/11(eg)/ information fectch on ram tempory purpose 
+         /proc each process run hotat tevha tiche folder banvle jatat os system self write 
+         it is accessible to every one 
+         
+         steps
+         one cmd 
+         cd /proc (change current directory towards /proc) 
+         ls 
+         

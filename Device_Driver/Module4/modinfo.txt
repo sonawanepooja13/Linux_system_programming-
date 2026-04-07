@@ -1,0 +1,9 @@
+filename:       /home/pooja/Desktop/lsp/Device_Driver/Module4/Hello.ko
+description:    It is Marvellous Driver
+author:         Pooja Adinath Sonawane
+license:        GPL
+srcversion:     4B6E770EFBDD91B31C752A0
+depends:        
+name:           Hello
+retpoline:      Y
+vermagic:       6.14.0-27-generic SMP preempt mod_unload modversions 
